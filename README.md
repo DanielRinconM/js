@@ -1,2 +1,2 @@
 # js
-Archivo de práctica taller de Git
+Esto es un repositorio de Git básico
