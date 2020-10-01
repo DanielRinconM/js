@@ -19,6 +19,7 @@
             <h1 class="display-4">
                 Ejercicio de JS (JavaScript)
                 <p>Este es un párrafo creado por otro usuario</p>
+                hola
             </h1>
             <p>Ingresa las palabras que desees por un salto de línea</p>
             <p>El resultado te mostrará las letras en pocisiones pares y separadas por un espacio las letras en posiciones nones</p>
@@ -45,13 +46,13 @@
 
                 for(let x=0;x<=tamañoCadena;x++){
                     let letra = palabra[x];
-                    if(x%2==0){
+                    if(x%2===0){
                         cadenaPar += letra;
                     }else{
                         cadenaNon += letra;
                     }
                 }
-                respuesta[palabra] = [cadenaPar, cadenaNon];
+                respuesta[palabra] = [cadenaPar,cadenaNon];
             });
             let contenedorResultado = document.getElementById('resultado');
             contenedorResultado.innerHTML = "";
